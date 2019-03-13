@@ -1,0 +1,84 @@
+.body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Name{
+    Position: fixed;
+    background: teal;
+    width: 200px;
+    height: 60px;
+    top: 9px;
+    left: 100px;
+    text-align: center;
+}
+
+.nav {
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 30px;
+    width: 960px;
+}
+
+.navigation{
+    color: #777;
+    float: right;
+}
+
+.background {
+    background:lightgray;
+    width: 1022px;
+}
+
+.section {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 40px 80px 40px 80px;
+    height: 500px;
+    position: relative;
+    color: #777777;
+}
+
+.break {
+    width: 850px;
+    background: #777;
+    height: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.about {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+}
+
+.pic {
+    position: absolute;
+    width: 25%;
+    top: 75px;
+    left: 0;
+}
+
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75%;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    color: #777777;
+}
+
+.writing {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 80px;
+    color: #777777;
+}
+
+.footer {
+    background: #666666;
+    color: white;
+    text-align: center;
+    border: 1px solid #dddddd;
+    width: 1020px;
+}
