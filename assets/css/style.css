@@ -1,30 +1,36 @@
 .body {
-    margin-left: 20px;
-    margin-right: 20px;
     width: 960px;
+    margin: 0 auto;
 }
 
-.Name{
-    Position: absolute;
-    background: teal;
-    width: 200px;
-    height: 60px;
-    top: 9px;
-    left: 100px;
-    text-align: center;
-}
 
 .nav {
     background: #ffffff;
     border: 1px solid #cccccc;
     padding: 30px;
     width: 898px;
+    height: 10px;
+    position: relative;
+}
+
+.Name{
+    Position: absolute;
+    background: teal;
+    width: 200px;
+    height: 70px;
+    top: 0px;
+    left: 70px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navigation{
     color: #777;
-    float: right;
-    margin-right: 50px;
+    height: 35px;
+    position: absolute;
+    top: 30px;
+    right: 80px;
 }
 
 .background {
