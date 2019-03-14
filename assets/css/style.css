@@ -4,7 +4,7 @@
 }
 
 .Name{
-    Position: fixed;
+    Position: absolute;
     background: teal;
     width: 200px;
     height: 60px;
@@ -34,7 +34,7 @@
     background: #ffffff;
     border: 1px solid #dddddd;
     margin: 40px 80px 40px 80px;
-    height: 500px;
+    height: 575px;
     position: relative;
     color: #777777;
 }
@@ -81,4 +81,47 @@
     text-align: center;
     border: 1px solid #dddddd;
     width: 1020px;
+}
+
+.form{
+    padding-left: 10px;
+}
+
+.pictures{
+    position: relative;
+}
+
+.hangman {
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    top:65px;
+    left:0;
+}
+
+.rpg {
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    top: 65px;
+    left: 250px;
+}
+
+.trivia {
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    top: 225px;
+    left: 0;
+}
+
+.rutgers {
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    top: 225px;
+    left: 250px;
+}
+
+.rockpaper{
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    top: 385px;
+    left: 0;
 }
